@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { generateBlog } from "../services/ai.service";
 
 const ALLOWED_TONES = [
-  "Professional",
+  "professional",
   "Casual",
   "Formal",
   "Creative",

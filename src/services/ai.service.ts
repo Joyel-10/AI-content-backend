@@ -21,7 +21,7 @@ export async function generateBlog({
       long: "700 words",
     };
 
-    const safeTone = tone || "Professional";
+    const safeTone = tone || "professional";
     const safeLength = lengthMap[length] || "300 words";
     const targetLanguage = language || "English";
 
